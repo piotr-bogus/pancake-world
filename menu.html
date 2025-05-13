@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <title>Menu / Pancake World</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Piotr Bogus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="src/assets/images/logos/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="src/resource/styles/main.css" />
+    <link rel="stylesheet" href="src/resource/styles/pages/menu.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-ul">
+        <a href="index.html" class="navbar-a">
+          <img src="src/assets/images/logos/logo.png" alt="#" class="navbar-img" />
+        </a>
+        <a href="index.html" class="navbar-a">Strona główna</a>
+        <a href="menu.html" class="navbar-a">Menu</a>
+        <a href="praca.html" class="navbar-a">Praca</a>
+        <a href="kontakt.html" class="navbar-a">Kontakt</a>
+        <a href="o-nas.html" class="navbar-a">O nas</a>
+        <div class="navbar-a" onclick="showNavbarPhone()">
+          <i class="fi fi-rr-bars-staggered"></i>
+        </div>
+      </ul>
+    </nav>
+    <main class="container">
+      <nav class="navbar-phone">
+        <ul class="navbar-ul-phone">
+          <a href="index.html" class="navbar-a-phone">Strona główna</a>
+          <a href="menu.html" class="navbar-a-phone">Menu</a>
+          <a href="praca.html" class="navbar-a-phone">Praca</a>
+          <a href="kontakt.html" class="navbar-a-phone">Kontakt</a>
+          <a href="o-nas.html" class="navbar-a-phone">O nas</a>
+        </ul>
+      </nav>
+      <main class="container-wrap">
+        <section class="container-menu">
+          <p class="title-container-menu">Naleśniki Słodkie</p>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">1. Klasyk Klonowy</p>
+              <p class="price-menu">24 zł</p>
+            </article>
+            <article class="container-description-menu">
+              <p class="description-menu">Trzy puszyste naleśniki z masłem i syropem klonowym z Kanady.</p>
+              <p class="weight-menu">300 g</p>
+            </article>
+          </article>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">2. Czekoladowa Pokusa</p>
+              <p class="price-menu">29 zł</p>
+            </article>
+            <article class="container-description-menu">
+              <p class="description-menu">Naleśniki z kremem Nutella, bananami i bitą śmietaną, posypane orzechami laskowymi.</p>
+              <p class="weight-menu">350 g</p>
+            </article>
+          </article>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">3. Raj Tropikalny</p>
+              <p class="price-menu">31 zł</p>
+            </article>
+            <article class="container-description-menu">
+              <p class="description-menu">Delikatne crêpes z musem mango-marakuja, świeżym ananasem i miętą.</p>
+              <p class="weight-menu">320 g</p>
+            </article>
+          </article>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">4. Jabłkowa Szarlotka</p>
+              <p class="price-menu">28 zł</p>
+            </article>
+            <article class="container-description-menu">
+              <p class="description-menu">Cynamonowe naleśniki z duszonymi jabłkami, rodzynkami i sosem waniliowym.</p>
+              <p class="weight-menu">330 g</p>
+            </article>
+          </article>
+        </section>
+        <section class="container-menu">
+          <p class="title-container-menu">Naleśniki Wytrawne</p>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">5. Francuska Przystań</p>
+              <p class="price-menu">32 zł</p>
+            </article>
+            <article class="container-description-menu">
+              <p class="description-menu">Crêpe z szynką, serem Gruyère i jajkiem sadzonym.</p>
+              <p class="weight-menu">350 g</p>
+            </article>
+          </article>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">6. Zielona Moc (wegańska)</p>
+              <p class="price-menu">30 zł</p>
+            </article>
+            <article class="container-description-menu">
+              <p class="description-menu">Naleśnik z pastą z ciecierzycy, grillowaną cukinią, rukolą i sosem tahini.</p>
+              <p class="weight-menu">320 g</p>
+            </article>
+          </article>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">7. Amerykański Burger-pancake</p>
+              <p class="price-menu">36 zł</p>
+            </article>
+            <article class="container-description-menu">
+              <p class="description-menu">Grube naleśniki przełożone wołowiną, cheddarem, bekonem i sosem BBQ.</p>
+              <p class="weight-menu">400 g</p>
+            </article>
+          </article>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">8. Łosoś i Awokado</p>
+              <p class="price-menu">35 zł</p>
+            </article>
+            <article class="container-description-menu">
+              <p class="description-menu">Crêpe z wędzonym łososiem, kremowym serkiem, awokado i koperkiem.</p>
+              <p class="weight-menu">330 g</p>
+            </article>
+          </article>
+        </section>
+        <section class="container-menu">
+          <p class="title-container-menu">Napoje</p>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">9. Lemoniada z malinami</p>
+              <p class="price-menu">12 zł</p>
+            </article>
+          </article>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">10. Kawa mrożona z bitą śmietaną</p>
+              <p class="price-menu">14 zł</p>
+            </article>
+          </article>
+          <article class="menu">
+            <article class="container-title-menu">
+              <p class="title-menu">11. Herbata domowa z imbirem i pomarańczą</p>
+              <p class="price-menu">11 zł</p>
+            </article>
+          </article>
+        </section>
+      </main>
+    </main>
+    <footer class="container-footer">
+      <article class="footer">
+        <p class="title-footer">Adres</p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">Krańcowa 44/97, 60-814 Poznań</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Kontakt</p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">+48 676 401 587</a></p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">kontakt@pancake-world.pl</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Godziny otwarcia</p>
+        <p class="description-footer">Poniedziałek - Piątek: 8:00 - 20:00</p>
+        <p class="description-footer">Sobota - Niedizela: 10:00 - 22:00</p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Media społecznościowe</p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">Facebook</a></p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">Instagram</a></p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">TikTok</a></p>
+      </article>
+    </footer>
+    <footer class="copyright">
+      <div class="description-copyright">Copyright <span class="year-copyright"></span> &copy; Piotr Bogus</div>
+      <div class="description-copyright">Created by <a href="#" class="link-copyright" target="_blank">Piotr Bogus</a></div>
+    </footer>
+    <script src="src/resource/scripts/navbar-phone.js"></script>
+    <script src="src/resource/scripts/year-copyright.js"></script>
+  </body>
+</html>

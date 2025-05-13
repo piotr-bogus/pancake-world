@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <title>Strona główna / Pancake World</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Piotr Bogus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="src/assets/images/logos/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="src/resource/styles/main.css" />
+    <link rel="stylesheet" href="src/resource/styles/pages/pancake-world.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-ul">
+        <a href="index.html" class="navbar-a">
+          <img src="src/assets/images/logos/logo.png" alt="#" class="navbar-img" />
+        </a>
+        <a href="index.html" class="navbar-a">Strona główna</a>
+        <a href="menu.html" class="navbar-a">Menu</a>
+        <a href="praca.html" class="navbar-a">Praca</a>
+        <a href="kontakt.html" class="navbar-a">Kontakt</a>
+        <a href="o-nas.html" class="navbar-a">O nas</a>
+        <div class="navbar-a" onclick="showNavbarPhone()">
+          <i class="fi fi-rr-bars-staggered"></i>
+        </div>
+      </ul>
+    </nav>
+    <main class="container">
+      <nav class="navbar-phone">
+        <ul class="navbar-ul-phone">
+          <a href="index.html" class="navbar-a-phone">Strona główna</a>
+          <a href="menu.html" class="navbar-a-phone">Menu</a>
+          <a href="praca.html" class="navbar-a-phone">Praca</a>
+          <a href="kontakt.html" class="navbar-a-phone">Kontakt</a>
+          <a href="o-nas.html" class="navbar-a-phone">O nas</a>
+        </ul>
+      </nav>
+      <main class="container-wrap">
+        <article class="information">
+          <p class="title-information">Uwaga!</p>
+          <p class="description-information">Wszystkie dane przedstawione na tej stronie są fikcyjne i zostały użyte wyłącznie w celach demonstracyjnych. Strona została stworzona jako projekt pokazowy, mający na celu zaprezentowanie umiejętności programistycznych autora.</p>
+          <p class="description-information">Nie jest to rzeczywista oferta ani oficjalna strona firmy/organizacji.</p>
+          <input type="button" value="Zamknij" class="btn-information" onclick="closeAlertInformation()" />
+        </article>
+        <img src="src/assets/images/other/img_1.webp" alt="#" class="img-opinion" />
+        <p class="description-opinion">Tu naleśniki grają główną rolę - słodkie, wytrawne, puszyste i chrupiące. Codziennie serwujemy smakowite połączenia z całego świata, przygotowane z pasją i najlepszych składników. Wpadnij na śniadanie, lunch lub deser - bo każdy moment jest dobry na naleśnika!</p>
+        <section class="container-promotion">
+          <p class="title-container-promotion">Aktualne promocje!</p>
+          <article class="promotion">
+            <p class="title-promotion">Kup jeden naleśnik, a drugi (tańszy) dostaniesz za 50%!</p>
+            <p class="description-promotion">Przyjdź we wtorek z przyjacielem (albo dużym apetytem) i skosztuj dwóch smaków w cenie jednego i pół. Obowiązuje na wszystkie naleśniki z menu.</p>
+            <li class="description-promotion">Promocja obowiązuje w każdy wtorek przez cały dzień.</li>
+          </article>
+          <article class="promotion">
+            <p class="title-promotion">Pancake + Kawa za 29 zł</p>
+            <p class="description-promotion">Rusz dzień z pysznym zestawem! Wybierz jeden słodki naleśnik i do tego kawę (czarna, z mlekiem lub cappuccino) - zapłacisz tylko 29 zł.</p>
+            <li class="description-promotion">Dostępne od poniedziałku do piątku do godziny 12:00.</li>
+          </article>
+        </section>
+        <section class="container-opinion">
+          <article class="opinion">
+            <p class="description-opinion">"To miejsce to naleśnikowy raj! Jadłam wytrawnego z łososiem i był idealny - świeży, lekki, pięknie podany. Na pewno wrócę spróbować czegoś na słodko."</p>
+            <p class="title-opinion">- Magda, 29 lat</p>
+          </article>
+          <article class="opinion">
+            <p class="description-opinion">"Mega klimat, fajna muzyka i jeszcze lepsze jedzenie. Wziąłem burgera z naleśników i rozwalił system. Porcje duże, ceny spoko. Polecam z całego serca!"</p>
+            <p class="title-opinion">- Kamil, 21 lat</p>
+          </article>
+          <article class="opinion">
+            <p class="description-opinion">"Bardzo miła obsługa i ciepła atmosfera. Przyszłam z wnuczką i obie byłyśmy zachwycone - naleśniki jak domowe, kawa bardzo dobra. Cieszę się, że takie miejsce jest w okolicy."</p>
+            <p class="title-opinion">- Halina, 56 lat</p>
+          </article>
+        </section>
+      </main>
+    </main>
+    <footer class="container-footer">
+      <article class="footer">
+        <p class="title-footer">Adres</p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">Krańcowa 44/97, 60-814 Poznań</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Kontakt</p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">+48 676 401 587</a></p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">kontakt@pancake-world.pl</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Godziny otwarcia</p>
+        <p class="description-footer">Poniedziałek - Piątek: 8:00 - 20:00</p>
+        <p class="description-footer">Sobota - Niedizela: 10:00 - 22:00</p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Media społecznościowe</p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">Facebook</a></p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">Instagram</a></p>
+        <p class="description-footer"><a href="#" class="link-footer" target="_blank">TikTok</a></p>
+      </article>
+    </footer>
+    <footer class="copyright">
+      <div class="description-copyright">Copyright <span class="year-copyright"></span> &copy; Piotr Bogus</div>
+      <div class="description-copyright">Created by <a href="#" class="link-copyright" target="_blank">Piotr Bogus</a></div>
+    </footer>
+    <script src="src/resource/scripts/alert-information.js"></script>
+    <script src="src/resource/scripts/navbar-phone.js"></script>
+    <script src="src/resource/scripts/year-copyright.js"></script>
+  </body>
+</html>
