@@ -52,6 +52,7 @@
 .price-menu {
   font-weight: bold;
   text-wrap: nowrap;
+  padding-left: 16px;
   font-size: 18px;
 }
 
@@ -67,6 +68,7 @@
 
 .weight-menu {
   text-wrap: nowrap;
+  padding-left: 16px;
   font-size: 16px;
 }
 
