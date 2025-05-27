@@ -1,0 +1,124 @@
+.container {
+  display: grid;
+  align-items: stretch;
+  justify-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 64px;
+}
+
+.container-menu {
+  border: 2px solid var(--black);
+  padding: 32px;
+  border-radius: 32px;
+  box-shadow: 16px 16px var(--gray-hover);
+}
+
+.container-menu:nth-child(3) {
+  grid-area: 2 / 1 / 3 / 3;
+  width: calc(50% - 32px);
+}
+
+.title-container-menu {
+  font-weight: bold;
+  text-align: center;
+  padding-inline: 16px;
+  font-size: 24px;
+}
+
+.menu {
+  padding-inline: 16px;
+}
+
+.menu:not(:first-child) {
+  padding-top: 16px;
+}
+
+.menu:not(:last-child) {
+  border-bottom: 1px solid var(--gray-hover);
+  padding-bottom: 16px;
+}
+
+.container-title-menu {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.title-menu {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.price-menu {
+  font-weight: bold;
+  text-wrap: nowrap;
+  font-size: 18px;
+}
+
+.container-description-menu {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.description-menu {
+  font-size: 16px;
+}
+
+.weight-menu {
+  text-wrap: nowrap;
+  font-size: 16px;
+}
+
+.container-btn-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-menu {
+  background: var(--black);
+  color: var(--white);
+  cursor: pointer;
+  font-family: "Host Grotesk", sans-serif;
+  border: 1px solid var(--brown);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.15s ease;
+  padding: 8px 24px;
+  border-radius: 999px;
+  font-size: 16px;
+}
+
+.btn-menu:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.btn-menu:active {
+  transform: scale(0.9);
+}
+
+.btn-menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+@media (width <= 1024px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container-menu:nth-child(3) {
+    width: 100%;
+  }
+}
+
+@media (width <= 480px) {
+  .menu {
+    padding-inline: 0;
+  }
+}

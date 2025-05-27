@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <title>Kontakt / Pancake World</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Piotr Bogus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="src/resource/styles/main.css" />
+    <link rel="stylesheet" href="src/resource/styles/pages/kontakt.css" />
+  </head>
+  <body>
+    <nav class="container-nav">
+      <ul class="nav">
+        <a href="index.html" class="container-img-nav">
+          <img src="src/assets/images/logos/logo.webp" alt="Zdjęcie przedstawiające logo []." class="img-nav" />
+        </a>
+        <article class="container-description-nav">
+          <a href="index.html" class="description-nav">Strona główna</a>
+          <a href="menu.html" class="description-nav">Menu</a>
+          <a href="praca.html" class="description-nav">Praca</a>
+          <a href="kontakt.html" class="description-nav">Kontakt</a>
+          <a href="o-nas.html" class="description-nav">O nas</a>
+        </article>
+        <div class="btn-nav" onclick="showNavPhone()">
+          <i class="fi fi-rr-bars-staggered"></i>
+        </div>
+      </ul>
+      <nav class="container-nav-phone">
+        <ul class="nav-phone">
+          <a href="index.html" class="description-nav-phone">Strona główna</a>
+          <a href="menu.html" class="description-nav-phone">Menu</a>
+          <a href="praca.html" class="description-nav-phone">Praca</a>
+          <a href="kontakt.html" class="description-nav-phone">Kontakt</a>
+          <a href="o-nas.html" class="description-nav-phone">O nas</a>
+        </ul>
+      </nav>
+      <div class="overlay-nav" onclick="hideNavPhone()"></div>
+    </nav>
+    <main class="container">
+      <section class="container-contact">
+        <p class="title-container-contact">Kontakt</p>
+        <article class="contact">
+          <p class="title-contact">Nr telefonu</p>
+          <p class="description-contact"><a href="mailto:kontakt@pancake-world.pl" class="link-contact" target="_blank">kontakt@pancake-world.pl</a></p>
+        </article>
+        <article class="contact">
+          <p class="title-contact">E-mail</p>
+          <p class="description-contact"><a href="mailto:kontakt@pancake-world.pl" class="link-contact" target="_blank">kontakt@pancake-world.pl</a></p>
+        </article>
+        <article class="contact">
+          <p class="title-contact">Adres</p>
+          <p class="description-contact"><a href="https://maps.app.goo.gl/WG8GLZp2Su6PdQCG6" class="link-contact" target="_blank">ul. Święty Marcin 23, 61-805 Poznań</a></p>
+        </article>
+        <article class="contact">
+          <p class="title-contact">Godziny otwarcia</p>
+          <p class="description-contact">Poniedziałek - Czwartek: 8:00 - 20:00</p>
+          <p class="description-contact">Piątek - Niedziela: 8:00 - 22:00</p>
+        </article>
+        <article class="contact">
+          <p class="title-contact">Media społecznościowe</p>
+          <p class="description-contact"><a href="https://www.facebook.com/" class="link-contact" target="_blank">Facebook</a></p>
+          <p class="description-contact"><a href="https://www.instagram.com/" class="link-contact" target="_blank">Instagram</a></p>
+          <p class="description-contact"><a href="https://www.tiktok.com/" class="link-contact" target="_blank">TikTok</a></p>
+        </article>
+      </section>
+    </main>
+    <footer class="container-footer">
+      <article class="footer">
+        <p class="title-footer">Adres</p>
+        <p class="description-footer"><a href="https://maps.app.goo.gl/WG8GLZp2Su6PdQCG6" class="link-footer" target="_blank">ul. Święty Marcin 23, 61-805 Poznań</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Godziny otwarcia</p>
+        <p class="description-footer">Poniedziałek - Czwartek: 8:00 - 20:00</p>
+        <p class="description-footer">Piątek - Niedziela: 8:00 - 22:00</p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Kontakt</p>
+        <p class="description-footer"><a href="tel:+48611234567" class="link-footer" target="_blank">+48 61 123 45 67</a></p>
+        <p class="description-footer"><a href="mailto:kontakt@pancake-world.pl" class="link-footer" target="_blank">kontakt@pancake-world.pl</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Media społecznościowe</p>
+        <p class="description-footer"><a href="https://www.facebook.com/" class="link-footer" target="_blank">Facebook</a></p>
+        <p class="description-footer"><a href="https://www.instagram.com/" class="link-footer" target="_blank">Instagram</a></p>
+        <p class="description-footer"><a href="https://www.tiktok.com/" class="link-footer" target="_blank">TikTok</a></p>
+      </article>
+    </footer>
+    <footer class="copyright">
+      <div class="description-copyright">Copyright <span class="year-copyright"></span> &copy; Piotr Bogus</div>
+      <div class="description-copyright">Created by <a href="#" class="link-copyright" target="_blank">Piotr Bogus</a></div>
+    </footer>
+    <script src="src/resource/scripts/nav-phone.js"></script>
+    <script src="src/resource/scripts/year-copyright.js" async></script>
+  </body>
+</html>

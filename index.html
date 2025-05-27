@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <title>Strona główna / Pancake World</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Piotr Bogus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="src/resource/styles/main.css" />
+    <link rel="stylesheet" href="src/resource/styles/pages/pancake-world.css" />
+  </head>
+  <body>
+    <nav class="container-nav">
+      <ul class="nav">
+        <a href="index.html" class="container-img-nav">
+          <img src="src/assets/images/logos/logo.webp" alt="Zdjęcie przedstawiające logo []." class="img-nav" />
+        </a>
+        <article class="container-description-nav">
+          <a href="index.html" class="description-nav">Strona główna</a>
+          <a href="menu.html" class="description-nav">Menu</a>
+          <a href="praca.html" class="description-nav">Praca</a>
+          <a href="kontakt.html" class="description-nav">Kontakt</a>
+          <a href="o-nas.html" class="description-nav">O nas</a>
+        </article>
+        <div class="btn-nav" onclick="showNavPhone()">
+          <i class="fi fi-rr-bars-staggered"></i>
+        </div>
+      </ul>
+      <nav class="container-nav-phone">
+        <ul class="nav-phone">
+          <a href="index.html" class="description-nav-phone">Strona główna</a>
+          <a href="menu.html" class="description-nav-phone">Menu</a>
+          <a href="praca.html" class="description-nav-phone">Praca</a>
+          <a href="kontakt.html" class="description-nav-phone">Kontakt</a>
+          <a href="o-nas.html" class="description-nav-phone">O nas</a>
+        </ul>
+      </nav>
+      <div class="overlay-nav" onclick="hideNavPhone()"></div>
+    </nav>
+    <main class="container">
+      <article class="alert">
+        <p class="title-alert">Uwaga!</p>
+        <p class="description-alert">Wszystkie dane przedstawione na tej stronie są fikcyjne i zostały użyte wyłącznie w celach demonstracyjnych. Strona została stworzona jako projekt pokazowy, mający na celu zaprezentowanie umiejętności programistycznych autora.</p>
+        <p class="description-alert">Nie jest to rzeczywista oferta ani oficjalna strona firmy/organizacji.</p>
+        <button class="btn-alert" onclick="hideAlert()">Zamknij</button>
+      </article>
+      <img src="src/assets/images/other/img_1.webp" alt="Zdjęcie przedstawiające naleśnika z sosem klonowym." class="img" />
+      <p class="description">Serwujemy puszyste pancakes i delikatne crêpes w słodkich i wytrawnych odsłonach. Wpadnij na śniadanie, lunch lub deser - codziennie z uśmiechem i najwyższej jakości składnikami. Smacznie, świeżo i zawsze z sercem!</p>
+      <section class="container-promotion">
+        <p class="title-container-promotion">Aktualne promocje!</p>
+        <article class="promotion">
+          <p class="title-promotion">Pancake + Kawa za 29 zł</p>
+          <p class="description-promotion">Zamów dowolny słodki naleśnik i kawę czarną lub z mlekiem w promocyjnej cenie! Idealne śniadanie na dobry początek dnia.</p>
+          <p class="description-promotion">- Od poniedziałku do piątku do godz. 12:00.</p>
+        </article>
+        <article class="promotion">
+          <p class="title-promotion">Drugi naleśnik -50%</p>
+          <p class="description-promotion">Zamów dowolny naleśnik, a drugi (tańszy lub w tej samej cenie) dostaniesz za połowę ceny. Promocja obowiązuje na miejscu i przy odbiorze osobistym.</p>
+          <p class="description-promotion">- Każda sobota i niedziela od 16:00 do zamknięcia.</p>
+        </article>
+      </section>
+      <section class="container-opinion">
+        <article class="opinion">
+          <p class="description-opinion">"Mięciutkie, puszyste, a do tego świeże owoce i pyszna kawa. Idealne miejsce na śniadanie albo deser po pracy. Obsługa bardzo miła i pomocna."</p>
+          <p class="title-opinion">- Marta, 27 lat</p>
+        </article>
+        <article class="opinion">
+          <p class="description-opinion">"Nie spodziewałem się, że naleśniki mogą być tak sycące i różnorodne. Zamówiłem wersję z kurczakiem BBQ - sztos! Świetna lokalizacja i luźny klimat."</p>
+          <p class="title-opinion">- Krzysiek, 33 lata</p>
+        </article>
+        <article class="opinion">
+          <p class="description-opinion">"Byliśmy z dziećmi w niedzielę - menu dziecięce, kolorowe talerze, a do tego lemoniada domowej roboty. Bardzo przyjazna atmosfera i naprawdę smaczne jedzenie."</p>
+          <p class="title-opinion">- Ania, 39 lat</p>
+        </article>
+      </section>
+      <section class="container-menu">
+        <article class="menu">
+          <p class="title-container-menu">1. Pancake Classic</p>
+          <p class="title-menu">Opis</p>
+          <p class="description-menu">Puszyste amerykańskie naleśniki z syropem klonowym, świeżymi owocami i cukrem pudrem.</p>
+          <p class="title-menu">Cena</p>
+          <p class="description-menu">29 zł</p>
+          <p class="title-menu">Gramatura</p>
+          <p class="description-menu">360 g</p>
+          <p class="title-menu">Opinie</p>
+          <p class="description-menu">4,8 (76)</p>
+        </article>
+        <article class="menu">
+          <p class="title-container-menu">4. Nutella Dream</p>
+          <p class="title-menu">Opis</p>
+          <p class="description-menu">Cienkie crêpes z kremem Nutella, bananem, orzechami laskowymi i bitą śmietaną.</p>
+          <p class="title-menu">Cena</p>
+          <p class="description-menu">34 zł</p>
+          <p class="title-menu">Gramatura</p>
+          <p class="description-menu">390 g</p>
+          <p class="title-menu">Opinie</p>
+          <p class="description-menu">4,6 (54)</p>
+        </article>
+        <article class="menu">
+          <p class="title-container-menu">7. Szpinak & Feta</p>
+          <p class="title-menu">Opis</p>
+          <p class="description-menu">Naleśniki gryczane z duszonym szpinakiem, serem feta i czosnkiem, podawane z sosem jogurtowym.</p>
+          <p class="title-menu">Cena</p>
+          <p class="description-menu">35 zł</p>
+          <p class="title-menu">Gramatura</p>
+          <p class="description-menu">420 g</p>
+          <p class="title-menu">Opinie</p>
+          <p class="description-menu">4,5 (34)</p>
+        </article>
+      </section>
+    </main>
+    <footer class="container-footer">
+      <article class="footer">
+        <p class="title-footer">Adres</p>
+        <p class="description-footer"><a href="https://maps.app.goo.gl/WG8GLZp2Su6PdQCG6" class="link-footer" target="_blank">ul. Święty Marcin 23, 61-805 Poznań</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Godziny otwarcia</p>
+        <p class="description-footer">Poniedziałek - Czwartek: 8:00 - 20:00</p>
+        <p class="description-footer">Piątek - Niedziela: 8:00 - 22:00</p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Kontakt</p>
+        <p class="description-footer"><a href="tel:+48611234567" class="link-footer" target="_blank">+48 61 123 45 67</a></p>
+        <p class="description-footer"><a href="mailto:kontakt@pancake-world.pl" class="link-footer" target="_blank">kontakt@pancake-world.pl</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Media społecznościowe</p>
+        <p class="description-footer"><a href="https://www.facebook.com/" class="link-footer" target="_blank">Facebook</a></p>
+        <p class="description-footer"><a href="https://www.instagram.com/" class="link-footer" target="_blank">Instagram</a></p>
+        <p class="description-footer"><a href="https://www.tiktok.com/" class="link-footer" target="_blank">TikTok</a></p>
+      </article>
+    </footer>
+    <footer class="copyright">
+      <div class="description-copyright">Copyright <span class="year-copyright"></span> &copy; Piotr Bogus</div>
+      <div class="description-copyright">Created by <a href="#" class="link-copyright" target="_blank">Piotr Bogus</a></div>
+    </footer>
+    <script src="src/resource/scripts/hide-alert.js"></script>
+    <script src="src/resource/scripts/nav-phone.js"></script>
+    <script src="src/resource/scripts/year-copyright.js" async></script>
+  </body>
+</html>

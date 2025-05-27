@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <title>Menu / Pancake World</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Piotr Bogus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="src/resource/styles/main.css" />
+    <link rel="stylesheet" href="src/resource/styles/pages/menu.css" />
+  </head>
+  <body>
+    <nav class="container-nav">
+      <ul class="nav">
+        <a href="index.html" class="container-img-nav">
+          <img src="src/assets/images/logos/logo.webp" alt="Zdjęcie przedstawiające logo []." class="img-nav" />
+        </a>
+        <article class="container-description-nav">
+          <a href="index.html" class="description-nav">Strona główna</a>
+          <a href="menu.html" class="description-nav">Menu</a>
+          <a href="praca.html" class="description-nav">Praca</a>
+          <a href="kontakt.html" class="description-nav">Kontakt</a>
+          <a href="o-nas.html" class="description-nav">O nas</a>
+        </article>
+        <div class="btn-nav" onclick="showNavPhone()">
+          <i class="fi fi-rr-bars-staggered"></i>
+        </div>
+      </ul>
+      <nav class="container-nav-phone">
+        <ul class="nav-phone">
+          <a href="index.html" class="description-nav-phone">Strona główna</a>
+          <a href="menu.html" class="description-nav-phone">Menu</a>
+          <a href="praca.html" class="description-nav-phone">Praca</a>
+          <a href="kontakt.html" class="description-nav-phone">Kontakt</a>
+          <a href="o-nas.html" class="description-nav-phone">O nas</a>
+        </ul>
+      </nav>
+      <div class="overlay-nav" onclick="hideNavPhone()"></div>
+    </nav>
+    <main class="container">
+      <section class="container-menu">
+        <p class="title-container-menu">Naleśniki na słodko</p>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">1. Pancake Classic</p>
+            <p class="price-menu">29 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Puszyste amerykańskie naleśniki z syropem klonowym, świeżymi owocami i cukrem pudrem.</p>
+            <p class="weight-menu">360 g</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">2. Wegański Raj</p>
+            <p class="price-menu">31 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Naleśniki bez jajek i mleka z musem mango, chia i syropem z agawy.</p>
+            <p class="weight-menu">350 g</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">3. Jagodowa Chmurka</p>
+            <p class="price-menu">33 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Pancakes z musem jagodowym, mascarpone i polewą białoczekoladową.</p>
+            <p class="weight-menu">400 g</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">4. Nutella Dream</p>
+            <p class="price-menu">34 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Cienkie crêpes z kremem Nutella, bananem, orzechami laskowymi i bitą śmietaną.</p>
+            <p class="weight-menu">390 g</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">5. Crêpes Suzette</p>
+            <p class="price-menu">36 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Francuskie naleśniki w sosie pomarańczowym z likierem Cointreau (bezalkoholowa wersja).</p>
+            <p class="weight-menu">300 g</p>
+          </article>
+        </article>
+      </section>
+      <section class="container-menu">
+        <p class="title-container-menu">Naleśniki wytrawne</p>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">6. Wege Meksyk</p>
+            <p class="price-menu">34 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Naleśniki z pastą z czarnej fasoli, kukurydzą, jalapeño i sosem pomidorowym.</p>
+            <p class="weight-menu">400 g</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">7. Szpinak & Feta</p>
+            <p class="price-menu">35 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Naleśniki gryczane z duszonym szpinakiem, serem feta i czosnkiem, podawane z sosem jogurtowym.</p>
+            <p class="weight-menu">420 g</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">8. Farmer’s Breakfast</p>
+            <p class="price-menu">37 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Pancakes z jajkiem sadzonym, boczkiem, serem cheddar i syropem klonowym.</p>
+            <p class="weight-menu">450 g</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">9. Kurczak BBQ</p>
+            <p class="price-menu">38 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Naleśniki z grillowanym kurczakiem, sosem BBQ, cebulą i roztopionym serem.</p>
+            <p class="weight-menu">430 g</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">10. Łosoś Deluxe</p>
+            <p class="price-menu">41 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Crêpes z wędzonym łososiem, serkiem śmietankowym, rukolą i kaparami.</p>
+            <p class="weight-menu">390 g</p>
+          </article>
+        </article>
+      </section>
+      <section class="container-menu">
+        <p class="title-container-menu">Napoje</p>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">11. Woda mineralna</p>
+            <p class="price-menu">7 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Butelkowana woda gazowana lub niegazowana.</p>
+            <p class="weight-menu">330 ml</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">12. Kawa czarna</p>
+            <p class="price-menu">10 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Świeżo mielona kawa z ekspresu, klasyczne espresso lungo.</p>
+            <p class="weight-menu">250 ml</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">13. Herbata liściasta</p>
+            <p class="price-menu">11 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Herbata czarna lub zielona, serwowana z cytryną i miodem.</p>
+            <p class="weight-menu">400 ml</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">14. Cappuccino</p>
+            <p class="price-menu">13 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Espresso z mleczną pianką, idealne na śniadanie.</p>
+            <p class="weight-menu">250 ml</p>
+          </article>
+        </article>
+        <article class="menu">
+          <article class="container-title-menu">
+            <p class="title-menu">15. Sok świeżo wyciskany</p>
+            <p class="price-menu">16 zł</p>
+          </article>
+          <article class="container-description-menu">
+            <p class="description-menu">Naturalny sok z pomarańczy, marchwi lub jabłek - 100% owoców.</p>
+            <p class="weight-menu">300 ml</p>
+          </article>
+        </article>
+        <article class="menu container-btn-menu">
+          <button class="btn-menu">
+            <a href="src/assets/images/logos/logo_original.webp" download><i class="fi fi-rr-download"></i>Pobierz menu</a>
+          </button>
+        </article>
+      </section>
+    </main>
+    <footer class="container-footer">
+      <article class="footer">
+        <p class="title-footer">Adres</p>
+        <p class="description-footer"><a href="https://maps.app.goo.gl/WG8GLZp2Su6PdQCG6" class="link-footer" target="_blank">ul. Święty Marcin 23, 61-805 Poznań</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Godziny otwarcia</p>
+        <p class="description-footer">Poniedziałek - Czwartek: 8:00 - 20:00</p>
+        <p class="description-footer">Piątek - Niedziela: 8:00 - 22:00</p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Kontakt</p>
+        <p class="description-footer"><a href="tel:+48611234567" class="link-footer" target="_blank">+48 61 123 45 67</a></p>
+        <p class="description-footer"><a href="mailto:kontakt@pancake-world.pl" class="link-footer" target="_blank">kontakt@pancake-world.pl</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Media społecznościowe</p>
+        <p class="description-footer"><a href="https://www.facebook.com/" class="link-footer" target="_blank">Facebook</a></p>
+        <p class="description-footer"><a href="https://www.instagram.com/" class="link-footer" target="_blank">Instagram</a></p>
+        <p class="description-footer"><a href="https://www.tiktok.com/" class="link-footer" target="_blank">TikTok</a></p>
+      </article>
+    </footer>
+    <footer class="copyright">
+      <div class="description-copyright">Copyright <span class="year-copyright"></span> &copy; Piotr Bogus</div>
+      <div class="description-copyright">Created by <a href="#" class="link-copyright" target="_blank">Piotr Bogus</a></div>
+    </footer>
+    <script src="src/resource/scripts/nav-phone.js"></script>
+    <script src="src/resource/scripts/year-copyright.js" async></script>
+  </body>
+</html>

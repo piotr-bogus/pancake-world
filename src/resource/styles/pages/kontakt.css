@@ -1,0 +1,47 @@
+.container-contact {
+  margin: auto;
+  border: 2px solid var(--black);
+  max-width: 768px;
+  padding: 32px;
+  border-radius: 32px;
+  box-shadow: 16px 16px var(--gray-hover);
+}
+
+.title-container-contact {
+  font-weight: bold;
+  text-align: center;
+  padding-inline: 16px;
+  font-size: 24px;
+}
+
+.contact {
+  padding-inline: 16px;
+}
+
+.contact:not(:first-child) {
+  padding-top: 16px;
+}
+
+.contact:not(:last-child) {
+  border-bottom: 1px solid var(--gray-hover);
+  padding-bottom: 16px;
+}
+
+.title-contact {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.description-contact {
+  font-size: 16px;
+}
+
+.link-contact:hover {
+  text-decoration: underline;
+}
+
+@media (width <= 480px) {
+  .contact {
+    padding-inline: 0;
+  }
+}

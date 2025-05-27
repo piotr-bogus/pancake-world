@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <title>O nas / Pancake World</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Piotr Bogus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="src/resource/styles/main.css" />
+    <link rel="stylesheet" href="src/resource/styles/pages/o-nas.css" />
+  </head>
+  <body>
+    <nav class="container-nav">
+      <ul class="nav">
+        <a href="index.html" class="container-img-nav">
+          <img src="src/assets/images/logos/logo.webp" alt="Zdjęcie przedstawiające logo []." class="img-nav" />
+        </a>
+        <article class="container-description-nav">
+          <a href="index.html" class="description-nav">Strona główna</a>
+          <a href="menu.html" class="description-nav">Menu</a>
+          <a href="praca.html" class="description-nav">Praca</a>
+          <a href="kontakt.html" class="description-nav">Kontakt</a>
+          <a href="o-nas.html" class="description-nav">O nas</a>
+        </article>
+        <div class="btn-nav" onclick="showNavPhone()">
+          <i class="fi fi-rr-bars-staggered"></i>
+        </div>
+      </ul>
+      <nav class="container-nav-phone">
+        <ul class="nav-phone">
+          <a href="index.html" class="description-nav-phone">Strona główna</a>
+          <a href="menu.html" class="description-nav-phone">Menu</a>
+          <a href="praca.html" class="description-nav-phone">Praca</a>
+          <a href="kontakt.html" class="description-nav-phone">Kontakt</a>
+          <a href="o-nas.html" class="description-nav-phone">O nas</a>
+        </ul>
+      </nav>
+      <div class="overlay-nav" onclick="hideNavPhone()"></div>
+    </nav>
+    <main class="container">
+      <section class="container-about">
+        <article class="about">
+          <p class="title-about">O nas</p>
+          <p class="description-about"><strong>Pancake World</strong> to wyjątkowe miejsce na kulinarnej mapie Poznania, stworzone z miłości do naleśników i radości dzielenia się smakiem. Powstaliśmy w 2023 roku, zainspirowani prostą ideą: naleśnik może być czymś więcej niż tylko szybkim posiłkiem - może być doświadczeniem, pretekstem do spotkania, rytuałem dnia.</p>
+          <p class="description-about">Nasza restauracja mieści się w samym sercu miasta, <a href="https://maps.app.goo.gl/WG8GLZp2Su6PdQCG6" class="link-about" target="_blank">przy ul. Święty Marcin 23</a>, gdzie łączymy nowoczesny design z przytulną atmosferą. To przestrzeń stworzona z myślą o każdym - rodzinach z dziećmi, zakochanych na randce, studentach szukających szybkiego lunchu i wszystkich tych, którzy po prostu kochają dobrze zjeść.</p>
+          <p class="description-about">Specjalizujemy się zarówno w puszystych amerykańskich pancakes, jak i delikatnych francuskich crêpes. W naszym menu znajdziesz zarówno klasyki z syropem klonowym i świeżymi owocami, jak i wytrawne kompozycje z serem pleśniowym, łososiem czy warzywami. Nie zapominamy też o osobach na diecie - mamy wersje wegańskie, bezglutenowe i niskocukrowe.</p>
+          <p class="description-about">W <strong>Pancake World</strong> wierzymy, że jedzenie to nie tylko smak, ale i emocje. Dlatego wszystkie dania przygotowujemy z najwyższej jakości składników, dbając o detale - od świeżych owoców po domowe sosy. Nasza kuchnia jest otwarta, by każdy mógł zobaczyć, jak powstają jego naleśniki - od pierwszej porcji ciasta aż po ostatnią kropkę bitej śmietany.</p>
+          <p class="description-about">Choć działamy od niedawna, zdążyliśmy już zdobyć grono stałych gości, którzy wracają do nas nie tylko po smak, ale i po atmosferę. Bo <strong>Pancake World</strong> to nie tylko restauracja - to świat, w którym naleśniki grają główną rolę, a Ty jesteś zawsze mile widzianym gościem.</p>
+        </article>
+        <article class="container-img-about">
+          <img src="src/assets/images/other/img_1.webp" alt="Zdjęcie przedstawiające naleśnika z sosem klonowym." class="img-about" loading="lazy" />
+          <img src="src/assets/images/other/img_2.webp" alt="Zdjęcie przedstawiające wnętrze restauracji." class="img-about" loading="lazy" />
+          <img src="src/assets/images/other/img_3.webp" alt="Zdjęcie przedstawiające stolik, przy którym rozmawiają goście restauracji z kelnerem." class="img-about" loading="lazy" />
+        </article>
+      </section>
+    </main>
+    <footer class="container-footer">
+      <article class="footer">
+        <p class="title-footer">Adres</p>
+        <p class="description-footer"><a href="https://maps.app.goo.gl/WG8GLZp2Su6PdQCG6" class="link-footer" target="_blank">ul. Święty Marcin 23, 61-805 Poznań</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Godziny otwarcia</p>
+        <p class="description-footer">Poniedziałek - Czwartek: 8:00 - 20:00</p>
+        <p class="description-footer">Piątek - Niedziela: 8:00 - 22:00</p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Kontakt</p>
+        <p class="description-footer"><a href="tel:+48611234567" class="link-footer" target="_blank">+48 61 123 45 67</a></p>
+        <p class="description-footer"><a href="mailto:kontakt@pancake-world.pl" class="link-footer" target="_blank">kontakt@pancake-world.pl</a></p>
+      </article>
+      <article class="footer">
+        <p class="title-footer">Media społecznościowe</p>
+        <p class="description-footer"><a href="https://www.facebook.com/" class="link-footer" target="_blank">Facebook</a></p>
+        <p class="description-footer"><a href="https://www.instagram.com/" class="link-footer" target="_blank">Instagram</a></p>
+        <p class="description-footer"><a href="https://www.tiktok.com/" class="link-footer" target="_blank">TikTok</a></p>
+      </article>
+    </footer>
+    <footer class="copyright">
+      <div class="description-copyright">Copyright <span class="year-copyright"></span> &copy; Piotr Bogus</div>
+      <div class="description-copyright">Created by <a href="#" class="link-copyright" target="_blank">Piotr Bogus</a></div>
+    </footer>
+    <script src="src/resource/scripts/nav-phone.js"></script>
+    <script src="src/resource/scripts/year-copyright.js" async></script>
+  </body>
+</html>
