@@ -104,6 +104,7 @@
 
 .container-opinion {
   max-width: 768px;
+  padding-inline: 16px;
 }
 
 .opinion {
